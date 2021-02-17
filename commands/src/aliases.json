@@ -1,0 +1,38 @@
+{
+  "action": [
+    "guerre",
+    "combat"
+  ],
+  "personnel": [
+    "developpement personnel",
+    "personelle",
+    "connaissance de soi"
+  ],
+  "exploration": [
+    "voyage",
+    "explorer"
+  ],
+  "magie": [
+    "magique",
+    "pouvoir"
+  ],
+  "art": [
+    "artistique",
+    "arts"
+  ],
+  "gastronomie": [
+    "bouffe",
+    "nourriture"
+  ],
+  "mobilité": [
+    "mobilite",
+    "conduite",
+    "deplacement"
+  ],
+  "animaux": [
+    "creatures",
+    "creature",
+    "animal",
+    "chimere"
+  ]
+}

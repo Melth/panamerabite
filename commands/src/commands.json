@@ -1,0 +1,14 @@
+{
+    "remémo":{
+        "description": "Courte description de l'aide",
+        "message": "pour la remémo il est conseillé blablablabla"
+    },
+    "autosuggestion":{
+        "description": "Courte description de l'aide",
+        "message": "pour l'autosuggestion il est conseillé blablablabla"
+    },
+    "paralysie":{
+        "description": "Courte description de l'aide",
+        "message": "pour la paralysie il est conseillé blablablabla"
+    }
+}
