@@ -1,0 +1,15 @@
+{
+  "name": "arrobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Arrosoir",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-menu": "^2.3.1"
+  }
+}
