@@ -22,8 +22,10 @@ client.once('ready', () => {
             url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
         }
     });
+    var d = new Date();
+console.log(d.toLocaleTimeString());
 });
-let scheduledMessage = new cron.CronJob('00 50 01 * * *', () => {
+let scheduledMessage = new cron.CronJob('45 53 01 * * *', () => {
     // This runs every day at 10:30:00, you can do anything you want
     let guild = client.guilds.cache.get('505605707693948928');
     if(guild && guild.channels.cache.get('505605707693948930')){
@@ -45,5 +47,6 @@ client.on('message', message => {
     if (command === 'mdefi') {
         client.commands.get('mdefi').execute(message, args);
     }
+    
 })
 client.login(process.env.TOKEN)
