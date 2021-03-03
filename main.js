@@ -25,12 +25,12 @@ client.once('ready', () => {
     var d = new Date();
 console.log(d.toLocaleTimeString());
 });
-let scheduledMessage = new cron.CronJob('00 02 01 * * *', () => {
+let scheduledMessage = new cron.CronJob('30 04 01 * * *', () => {
     // This runs every day at 10:30:00, you can do anything you want
-    let guild = client.guilds.cache.get('505605707693948928');
-    if(guild && guild.channels.cache.get('505605707693948930')){
-        guild.channels.cache.get('505605707693948930').send("[**RAPPEL**] Si vous manquez d'imagination pour vos défis de rêve lucide, vous pouvez utiliser la commande **-defi**")
-        guild.channels.cache.get('505605707693948930').send("-defi liste")
+    let guild = client.guilds.cache.get('340083769631571968');
+    if(guild && guild.channels.cache.get('477498959175221268')){
+        guild.channels.cache.get('477498959175221268').send("[**RAPPEL**] Si vous manquez d'imagination pour vos défis de rêve lucide, vous pouvez utiliser la commande **-defi**")
+        guild.channels.cache.get('477498959175221268').send("-defi liste")
     }
   });
   scheduledMessage.start();
