@@ -25,7 +25,7 @@ client.once('ready', () => {
     var d = new Date();
 console.log(d.toLocaleTimeString());
 });
-let scheduledMessage = new cron.CronJob('30 04 01 * * *', () => {
+let scheduledMessage = new cron.CronJob('03 00 17 * * *', () => {
     // This runs every day at 10:30:00, you can do anything you want
     let guild = client.guilds.cache.get('340083769631571968');
     if(guild && guild.channels.cache.get('477498959175221268')){
