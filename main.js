@@ -56,7 +56,8 @@ client.on('message', message => {
         client.commands.get('mdefi').execute(message, args);
     }
     if (command === 'preview') {
-        message.channel.send(`[**RAPPEL**] Si vous êtes en perte de motivation et que vous avez besoin d'un ptit coup de pied au c** pour vous remettre dans l'bain, ça se passe ici <#${816713658750992433}> (voir le message épinglé pour l'accès au chat)`)
+        let guild = client.guilds.cache.get('340083769631571968');
+        message.channel.send(`[**RAPPEL**] Si vous êtes en perte de motivation et que vous avez besoin d'un ptit coup de pied au c** pour vous remettre dans l'bain, ça se passe ici <#${guild.channels.cache.get('816713658750992433')}> (voir le message épinglé pour l'accès au chat)`)
     }
     
 })
