@@ -33,7 +33,7 @@ let scheduledMessage = new cron.CronJob('03 00 17 * * *', () => {
         guild.channels.cache.get('477498959175221268').send("-defi liste")
     }
   });
-  let annonceDjazz = new cron.CronJob('03 0 17 ? * TUE,SAT', () => {
+  let annonceDjazz = new cron.CronJob('03 0 17 * * TUE,SAT', () => {
     // This runs every day at 10:30:00, you can do anything you want
     let guild = client.guilds.cache.get('340083769631571968');
     if(guild && guild.channels.cache.get('452416989617586176')){
