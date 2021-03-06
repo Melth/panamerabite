@@ -33,6 +33,14 @@ let scheduledMessage = new cron.CronJob('03 00 17 * * *', () => {
         guild.channels.cache.get('477498959175221268').send("-defi liste")
     }
   });
+  let annonceDjazz = new cron.CronJob('03 0 17 ? * TUE,SAT', () => {
+    // This runs every day at 10:30:00, you can do anything you want
+    let guild = client.guilds.cache.get('340083769631571968');
+    if(guild && guild.channels.cache.get('452416989617586176')){
+        guild.channels.cache.get('452416989617586176').send(`[**RAPPEL**] Si vous êtes en perte de motivation et que vous avez besoin d'un ptit coup de pied au c** pour vous remettre dans l'bain, ça se passe ici <#${816713658750992433}> (voir le message épinglé pour l'accès au chat)`)
+    }
+  });
+  annonceDjazz.start();
   scheduledMessage.start();
 client.on('message', message => {
     if (!message.content.startsWith(prefix) /*|| message.author.bot*/) return;
@@ -46,6 +54,9 @@ client.on('message', message => {
     }
     if (command === 'mdefi') {
         client.commands.get('mdefi').execute(message, args);
+    }
+    if (command === 'preview') {
+        message.channel.send(`[**RAPPEL**] Si vous êtes en perte de motivation et que vous avez besoin d'un ptit coup de pied au c** pour vous remettre dans l'bain, ça se passe ici <#${816713658750992433}> (voir le message épinglé pour l'accès au chat)`)
     }
     
 })
