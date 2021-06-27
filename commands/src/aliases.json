@@ -34,5 +34,9 @@
     "creature",
     "animal",
     "chimere"
-  ]
+  ],
+  "foret": [
+    "foret",
+    "bois"
+    ]
 }
