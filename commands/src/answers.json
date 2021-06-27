@@ -1,4 +1,4 @@
-{
+﻿{
   "action": [
     "combattre à l'épée",
     "faire un entrainement d'art martial avec un grand maître",
@@ -135,7 +135,8 @@
     "manger dans un restaurant de luxe",
     "manger un objet insolite ( cailloux, table, porte...)",
     "manger de la matière organique insolite ( arbre, animal...)",
-    "cuisiner quelque chose"
+    "cuisiner quelque chose",
+    "manger un aliment qui n'existe pas IRL"
   ],
   "animaux": [
     "te transformer en un animal",
@@ -174,5 +175,25 @@
     "marcher/courir sur de l'eau",
     "te déplacer par la pensée",
     "naviguer le grand Condor d'or"
+  ],
+  "forêt": [
+    "ceuillir des champignons et autres plantes multicolores pour le vieux couple millénaire",
+    "rencontrer le couple millénaire, manger chez eux ou demander qu'ils t'offre une de leur mystérieuse et puissante potion magique",
+    "visiter l'arbre géant",
+    "entrer dans la forêt magique au moyen d'un portail, d'une simple porte ou en traversant un arbre",
+    "grimper ou voler jusqu'aux cimes des arbres",
+    "faire de l'accrobranche et/ou du parkour entre troncs, liannes, branches et branchages",
+    "questionner le vieux couple millénaire sur des sujets personnels pour qu'ils t'apportent sagesses et conseils",
+    "te poser dans une petite clarière près de l'immense arbre magique afin de méditer",
+    "porter ton intention sur les myriades de sons et d'odeurs de la forêt",
+    "partir à la recherche d'animaux rares",
+    "chevauchez des animaux de la forêt",
+    "retrouver tes oniropotes préférés dans la taverne de l'arbre géant, puis passer une soirée ambiancée à discuter RL et découvir les facettes cachées de vos inconscients",
+    "retrouver des oniropotes préférés dans les hauteurs de l'arbre géant et faire un concours de celui qui fera apparaître l'object/l'animal le plus loufoque",
+    "chercher l'animal d'un de tes oniropotes",
+    "faire apparaître ton dragon",
+    "discuter/t'amuser avec des fées",
+    "manger un fruit qui n'existe pas IRL et te concentrer sur le goût",
+    "planter un graine pour qu'un arbre géant surgisse du sol"
   ]
 }
